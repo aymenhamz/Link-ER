@@ -1,4 +1,5 @@
 package linker.entities;
+
 import linker.enums.ProjectStatus;
 import linker.enums.ProjectTag;
 import jakarta.persistence.Enumerated;

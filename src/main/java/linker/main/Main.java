@@ -1,4 +1,5 @@
 package linker.main;
+
 import linker.utils.Database;
 
 public class Main {

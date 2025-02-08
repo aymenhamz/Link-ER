@@ -1,17 +1,11 @@
 package linker.entities;
 
+import linker.enums.ProficiencyLevel;
 
 public class UserSkills {
-
-
     private Long id;
-
-
     private User user;
-
     private String skillName;
-
-
     private ProficiencyLevel proficiencyLevel;
 
     public UserSkills() {}
@@ -33,10 +27,4 @@ public class UserSkills {
 
     public ProficiencyLevel getProficiencyLevel() { return proficiencyLevel; }
     public void setProficiencyLevel(ProficiencyLevel proficiencyLevel) { this.proficiencyLevel = proficiencyLevel; }
-
-    public enum ProficiencyLevel {
-        BEGINNER,
-        INTERMEDIATE,
-        EXPERT
-    }
 }
